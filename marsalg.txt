@@ -1,0 +1,32 @@
+Marsquiz-algorithm
+
+1. Printataan pelin esittely
+2. Pyydetään valitsemaan aihealue
+2.1 Pelaaja valitsee joko kategorian 1, 2 tai 3
+jos valitsee kategorian X, kutsutaan aliohjelmaa X
+2.2 Tulostetaan alakategoriat
+2.3 Sitten pelaaja valitsee jonkun neljästä alakategoriasta
+3. Peli siirtyy alakategoriaan (oma funktionsa)
+4. Peli alkaa, ohjelma esittää vuoroin kysymyksiä (yht. 10)
+4.1 Pelaaja saa oikeasta vastauksesta pisteen, se tallennetaan
+esim. muuttujaan points.
+
+esim. kysymys:
+print("is Mars round?")
+print("Answer yes or no.")
+answer = input("> ")
+#luodaan taulukko (list) kysymyksille
+questions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+answer == input()
+for question in questions:
+if answer == yes
+points += 1
+
+Next-level:
+Muuttujaan täytyy voida päästä käsiksi funktion
+ulkopuolella mikäli halutaan laskea kokonaispisteet kaikista aihealueista.
+Tälle voisi tehdä osaamistasot: bronze, silver, gold tai novice, master jne.
+riippuen siitä montako aihealuetta halutaan hallita.
+5. Kun aihealueen peli päättyy, eli looppi loppuu
+10 kysymyksen jälkeen, kysytään pelaajalta haluaako tämä lopettaa
+aihealueen pelin vai tehdä kyselyn uudestaan.
